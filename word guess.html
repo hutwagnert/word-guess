@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>Word game</title>
+        
+        <!-- Bootstrap File -->
+        <link rel="stylesheet" href="/assets/CSS/bootstrap/bootstrap.min.css">
+        <!--link main-->
+        <link rel="stylesheet" href="/assets/CSS/main.css">
+        
+
+    </head>
+    <body onload="main()">
+        <section id="thelooks">
+            <div class="container for-all">
+                <div class="row">
+                    <div class="col-md-8 main-col text-center">
+                        <h1>Guess your Disney Characters!</h1>
+                        <div class="col-md-4 right-col">
+                            <p>Instructions: Enter a letter, click submit and see if you guessed right!</p>
+                            <ul>
+                                <li class="text-center">
+                                    <p>
+                                        these are the letters you have guessed so far:<span id="num-guess"></span></p>
+                                </li>
+                                <li class="text-center">
+                                    <p>
+                                        Number of Guesses left:<span id="num-left"></span></p>
+                                </li>
+                                <li class="text-center">
+                                    <p>
+                                        number of wins:<span id="num-wins"></span></p>
+                                </li>
+                                <li class="text-center">
+                                    <p>
+                                        Press one letter and see if you can guess the name of the Disney Character:<span id="character"></span></p>
+                                </li>
+                                <li class="text-center">
+                                        <p>
+                                                number of losses:<span id="num-losses"></span></p>
+                                    </li>
+                            </ul>
+
+                        </div>
+                        <div class="col-md-4 left-col">
+                                <p>
+                                        Guess here:
+                                        <input type="text" id="userInput"><br></p>
+                                    <button onclick="updatenumguess()">Submit</button>
+                        </div>
+                            
+                    </div>
+                </div>
+            </section>
+            
+
+            
+
+            
+
+        </body>
+
+    </html>
+    <!--jquery-->
+    <script src="assets/JS/jquery.js"></script>
+
+    <!--bootstrap js-->
+    <script src="assets/JS/bootstrap/bootstrap.js"></script>
+    <!-- game js-->
+    <script src="assets/JS/game js.js"></script>

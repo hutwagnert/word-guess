@@ -1,0 +1,28 @@
+/* General*/
+body{
+    background-color:#568EA3;
+    font-family: "Roboto Condensed", sans-serif;
+    
+    }
+.for-all {
+    background-color:#5EE0D9;
+    
+}
+.main-col h1 {
+    color:#594337;
+    
+}
+.main-col {
+    position: relative;
+    right:16.666665%;
+
+}
+.right-col p {
+    color:#594337;
+}
+.right-col ul li p {
+    color:#594337;
+}
+.left-col p {
+    color:#594337;
+}
