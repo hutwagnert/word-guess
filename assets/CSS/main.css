@@ -6,22 +6,35 @@ body{
     }
 .for-all {
     background-color:#5EE0D9;
+    margin-top: 40px;
     
 }
 .main-col h1 {
     color:#594337;
+    text-align: center;
     
 }
 .main-col {
-    position: relative;
-    right:16.666665%;
+    margin:auto;
+    width:66%;
 
+}
+.right-col{
+    width:33%;
+    margin:0 0 0 0;
+
+}
+.left-col {
+    width:33%;
+    Margin:0 0 0 0;
 }
 .right-col p {
     color:#594337;
 }
 .right-col ul li p {
     color:#594337;
+    margin-bottom: 5px;
+
 }
 .left-col p {
     color:#594337;
